@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 37e11256945ef1442ab626571e9a2c6d
+guid: 5a78a2639758f654ebeb40301942fd4f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1127933441503263673
-    second: devil_0
-  - first:
-      213: 5343951658995598748
-    second: devil_1
+      213: -5547318538227744433
+    second: butterbonny_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -99,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: devil_0
+      name: butterbonny_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 47
-        width: 348
-        height: 221
+        x: 0
+        y: 0
+        width: 447
+        height: 447
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7440ae0d286c850f0800000000000000
-      internalID: -1127933441503263673
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: devil_1
-      rect:
-        serializedVersion: 2
-        x: 385
-        y: 49
-        width: 90
-        height: 277
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c95ca4b68b7892a40800000000000000
-      internalID: 5343951658995598748
+      spriteID: f410ff03e27f303b0800000000000000
+      internalID: -5547318538227744433
       vertices: []
       indices: 
       edges: []
@@ -173,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      devil_0: -1127933441503263673
-      devil_1: 5343951658995598748
+      butterbonny_0: -5547318538227744433
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
