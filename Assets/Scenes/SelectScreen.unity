@@ -1238,6 +1238,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   moveSpeed: 5
+  jumpForce: 10
+  groundCheck: {fileID: 0}
+  groundCheckRadius: 0.2
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
   rb: {fileID: 1070454123}
   playerControls:
     m_Name: Player Controls
@@ -1271,6 +1277,14 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Player Controls
       m_Flags: 8
+    - m_Name: 
+      m_Id: 9a1c8ba7-a4d7-4332-941a-0926ac9fe6c9
+      m_Path: <Keyboard>/space
+      m_Interactions: Tap
+      m_Processors: ScaleVector2
+      m_Groups: 
+      m_Action: Player Controls
+      m_Flags: 0
     m_Flags: 0
   moveDirection: {x: 0, y: 0}
 --- !u!1 &1122801506
