@@ -9,7 +9,14 @@ public class LevelEntrance : MonoBehaviour
     {
         if (collision.GetComponent<Player>() != null)
         {
-            GameManager.instance.ChangeLevelTo(nextLevelName);
+            PopUpScript.instance.spawnch();
+
         }
     }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        GameManager.instance.ChangeLevelTo(nextLevelName);
+    }
+
+
 }
