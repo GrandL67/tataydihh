@@ -7,13 +7,13 @@ public class StartMenuController : MonoBehaviour
 {
     public void OnStartClick()
     {
-        SceneManager.LoadScene("StartScene");
+        SceneManager.LoadScene("SelectScreen");
     }
     public void OnExitClick()
     {
 #if UNITY_EDITOR
-    UnityEditor.EditorApplication.isPlaying = false;
+        UnityEditor.EditorApplication.isPlaying = false;
 #endif
-    Application.Quit();
+        Application.Quit();
     }
 }
