@@ -15,4 +15,4 @@ EditorBuildSettings:
     path: Assets/Scenes/SelectScreen.unity
     guid: bd7beab234e55d34ba9599b05b93a59f
   m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 473ae412da20d8c4e88e92d68a8219e7, type: 3}

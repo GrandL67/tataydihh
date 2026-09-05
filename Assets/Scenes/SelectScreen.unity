@@ -1955,6 +1955,7 @@ GameObject:
   - component: {fileID: 1070454124}
   - component: {fileID: 1070454123}
   - component: {fileID: 1070454126}
+  - component: {fileID: 1070454128}
   - component: {fileID: 1070454127}
   m_Layer: 0
   m_Name: Player
@@ -2112,56 +2113,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aa0650aa294ce34abd81133d5cf15df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  moveSpeed: 5
-  jumpForce: 10
-  groundCheck: {fileID: 0}
-  groundCheckRadius: 0.2
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  rb: {fileID: 1070454123}
-  playerControls:
-    m_Name: Player Controls
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 69843b8a-7783-45de-bd31-bb7b5c881247
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 2D Vector
-      m_Id: 6a980998-182e-464a-bae7-13bc7020a0c0
-      m_Path: 2DVector
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Player Controls
-      m_Flags: 4
-    - m_Name: left
-      m_Id: 95831fb7-47b7-4605-84b7-8f12019522fa
-      m_Path: <Keyboard>/a
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Player Controls
-      m_Flags: 8
-    - m_Name: right
-      m_Id: 9c7168b9-2d01-46f8-91bb-88d20cc85ce1
-      m_Path: <Keyboard>/d
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Player Controls
-      m_Flags: 8
-    - m_Name: 
-      m_Id: 9a1c8ba7-a4d7-4332-941a-0926ac9fe6c9
-      m_Path: <Keyboard>/space
-      m_Interactions: Tap
-      m_Processors: ScaleVector2
-      m_Groups: 
-      m_Action: Player Controls
-      m_Flags: 0
-    m_Flags: 0
-  moveDirection: {x: 0, y: 0}
+--- !u!114 &1070454128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070454122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d9ac6fc61550c8499231f6faf373f18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  _movementSpeed: 5
+  _jumpForce: 5
 --- !u!1 &1122801506
 GameObject:
   m_ObjectHideFlags: 0
