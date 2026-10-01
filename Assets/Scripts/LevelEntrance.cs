@@ -7,7 +7,11 @@ public class LevelEntrance : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+<<<<<<< Updated upstream
         if (collision.GetComponent<PlayerInputHandler>() != null)
+=======
+        if (collision.GetComponent<PlayerJump>() != null)
+>>>>>>> Stashed changes
         {
             PopUpScript.instance.spawnch();
 
